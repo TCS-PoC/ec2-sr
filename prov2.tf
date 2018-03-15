@@ -1,7 +1,3 @@
-variable "access_key" {}
-variable "secret_key" {}
-variable "region" {}
-
 provider "aws" {
   alias  = "second"
   access_key = "${var.access_key}"
