@@ -5,7 +5,7 @@ provider "aws" {
   region     = "${var.region}"
 }
 
-resource "aws_instance" "instance2" {
+resource "aws_instance" "instance3" {
   ami = "ami-26ebbc5c"
   instance_type = "t2.micro"
   availability_zone = "us-east-1a"
