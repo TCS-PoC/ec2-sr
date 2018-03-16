@@ -11,7 +11,7 @@ resource "aws_instance" "instance3" {
   availability_zone = "us-east-1a"
   disable_api_termination = "true"
   key_name = "key1"
-  security_groups = "sg-74382e1c"
+  security_groups = ["sg-74382e1c"]
   subnet_id = "subnet-d69c57be" 
   tags {
     Name = "hostTerraform3"
