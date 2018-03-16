@@ -11,7 +11,6 @@ resource "aws_instance" "instance3" {
   availability_zone = "us-east-1a"
   disable_api_termination = "true"
   key_name = "key1"
-  placement_group = "pGroup1"
   security_groups = ["sg-d4b425a0"]
   subnet_id = "subnet-2b059476" 
   tags {
